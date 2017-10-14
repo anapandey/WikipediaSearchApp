@@ -1,0 +1,77 @@
+/* Stylesheet by Ana Pandey */
+/* body */
+
+body {
+    background-color: #FFF;
+}
+a:hover {
+    text-decoration: none;
+    color: #05B6EA;
+}
+.center {
+    text-align: center;
+}
+
+/* conatainer */
+.container-fluid {
+    font-family: Ariel, 'Helvetica', serif;
+    font-size: 20px;
+    height: 900px;
+    width: 100%;
+}
+#topRow {
+    margin-top: 50px;
+    color: white;
+}
+#topRow h1 {
+    font-size: 300%;
+    color: #3399ff;
+}
+#middleRow {
+    margin-top: 40px;
+}
+#searchbox {
+    width: 450px;
+    padding: 8px;
+    font-size: 1.3em;
+    border: 1px solid #3399ff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Tahoma', serif;
+    font-size: 18px;
+    color: #124C5D;
+}
+#searchButton {
+    margin: -38px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    border-radius: 20%;
+    color: #3399ff;
+}
+#bottomRow {
+    margin-top: 20px;
+}
+#random {
+    background-color: #999999;
+    font-weight: bold;
+    font-size: 1em;
+    color: #033C93;
+}
+#endRow {
+    font-size: 0.8em;
+    margin-top: 250px;
+}
+
+/* result area */
+#results {
+    margin-top: 100px;
+}
+#resultDiv {
+    margin: 30px;
+    border: 1px solid grey;
+    color: grey;
+    padding: 30px;
+    font-family: 'Tahoma', serif;
+    font-size: 20px;
+}
